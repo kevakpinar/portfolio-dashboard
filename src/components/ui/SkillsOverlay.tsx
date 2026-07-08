@@ -159,7 +159,6 @@ export default function SkillsOverlay() {
                         <SkillItem index={13} name="Self-Motivation" />
                         <SkillItem index={14} name="Client Relations" />
                         <SkillItem index={15} name="Organization" />
-                        <SkillItem index={16} name="Negotiation" />
                     </div>
                 </GlassCard>
 
