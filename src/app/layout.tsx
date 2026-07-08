@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio of the Salimly",
+  title: "Portfolio",
   description: "Created by Kev Akpinar",
 };
 

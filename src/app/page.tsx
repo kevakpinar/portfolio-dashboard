@@ -20,7 +20,7 @@ export default function Home() {
   const setActiveSection = usePortfolioStore((state) => state.setActiveSection);
 
   return (
-    <main className="relative w-screen h-screen overflow-hidden select-none bg-[#050507]">
+    <main className="relative w-screen h-[100dvh] overflow-hidden select-none bg-[#050507]">
       {/* 3D Canvas Layer */}
       <div className="absolute inset-0 z-0">
         <Canvas camera={{ position: [0, 0, 5], fov: 75 }}>
@@ -61,7 +61,7 @@ export default function Home() {
         </div>
 
         {/* Bottom section */}
-        <nav className="w-full flex justify-center pointer-events-auto flex-shrink-0 px-2 pb-4 md:pb-6">
+        <nav className="w-full flex justify-center pointer-events-auto flex-shrink-0 px-2 pb-8 md:pb-6">
           <div className="glass-panel px-4 md:px-6 py-3 rounded-full flex justify-center items-center gap-4 md:gap-6 shadow-glass">
             {[
               { 

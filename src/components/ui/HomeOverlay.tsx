@@ -12,7 +12,7 @@ export default function HomeOverlay() {
         <div className="inline-block px-3 py-1 bg-white/5 border border-white/10 rounded-full text-[10px] font-bold uppercase tracking-widest text-violet-300 mb-2 backdrop-blur-sm text-occlusion">
           SYSTEM BOOT // V1.0
         </div>
-        <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-4 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
+        <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-tight md:leading-none mb-4 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
           Kev <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-300">
             Akpinar
@@ -31,21 +31,21 @@ export default function HomeOverlay() {
           </h3>
           
           <div className="space-y-3 text-sm">
-            <div className="flex justify-between items-center">
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-1 sm:gap-0">
               <span className="text-pastel-muted uppercase font-medium">Current Hub</span>
-              <span className="font-bold">Ontario, Canada</span>
+              <span className="font-bold mt-1 sm:mt-0">Ontario, Canada</span>
             </div>
 
-            <div className="flex justify-between items-center">
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-1 sm:gap-0">
               <span className="text-pastel-muted uppercase font-medium">Specialization</span>
-              <span className="font-bold tracking-tight">Artificial Intelligence</span>
+              <span className="font-bold tracking-tight mt-1 sm:mt-0">Artificial Intelligence</span>
             </div>
 
-            <div className="flex justify-between items-center">
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-1 sm:gap-0">
               <span className="text-pastel-muted uppercase font-medium">Status</span>
-              <span className="flex items-center gap-1.5 font-bold text-emerald-400">
-                <span className="w-2 h-2 rounded-full bg-emerald-400" />
-                Active: Seeking Engineering Roles
+              <span className="flex items-start sm:items-center gap-1.5 font-bold text-emerald-400 mt-1 sm:mt-0">
+                <span className="w-2 h-2 rounded-full bg-emerald-400 flex-shrink-0 mt-1.5 sm:mt-0" />
+                <span>Active: Seeking Engineering Roles</span>
               </span>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function HomeOverlay() {
 
         {/* Small Sub-card showing quick action/hint */}
         <GlassCard delay={0.4} className="bg-white/20!">
-          <p className="text-[14px] text-slate-300 italic">
+          <p className="text-[14px] text-slate-300 italic leading-relaxed md:leading-normal">
             I am a recent Computer Science graduate who has achieved a Bachelors level degree at Brock University, with
             a specialization in Artificial Intelligence. I also possess a Minor in Mathematics, and have immersed myself
             in various projects that have relevance to real-world problems throughout my years at Brock University. I am
